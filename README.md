@@ -1,5 +1,5 @@
 
-![image](https://user-images.githubusercontent.com/66803124/118511957-3bafa700-b6e7-11eb-94c4-ad3afd5bae47.png)
+![image](https://user-images.githubusercontent.com/66803124/118513589-b927e700-b6e8-11eb-99a9-5617386d6970.png)
 
 # Algorithm_Binary_Search
 
