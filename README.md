@@ -64,11 +64,12 @@ nums is sorted in an ascending order.
         left, right = 0, len(nums) - 1
         while left <= right:
             pivot = left + (right - left) // 2
-            if nums[pivot] == target:
+            #Here we are saying we want whatever our left and right pivot points are, divide them by 2 because we need the midpoint. 
+            if nums[pivot] == target: #If this is our target number, return it
                 return pivot
-            if target < nums[pivot]:
+            if target < nums[pivot]: #If not, if the target is less than our number, minus one.
                 right = pivot - 1
             else:
-                left = pivot + 1
+                left = pivot + 1 #If it is more than our target, plus one.
         return -1
 ```
